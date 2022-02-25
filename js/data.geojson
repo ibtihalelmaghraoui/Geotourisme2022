@@ -1,0 +1,29 @@
+{
+"type": "FeatureCollection",
+"name": "data",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Monument": "Mosquée Hassan II", "Latitude": 33.608517193099999, "Longitude": -7.6328419895400001 }, "geometry": { "type": "Point", "coordinates": [ -7.632841989536783, 33.608517193107282 ] } },
+{ "type": "Feature", "properties": { "Monument": "Kasbah des Oudaya", "Latitude": 34.031362959200003, "Longitude": -6.8355064606899996 }, "geometry": { "type": "Point", "coordinates": [ -6.835506460687691, 34.0313629592263 ] } },
+{ "type": "Feature", "properties": { "Monument": "Tour Hassan", "Latitude": 34.024290990399997, "Longitude": -6.8229811760299999 }, "geometry": { "type": "Point", "coordinates": [ -6.822981176031961, 34.024290990416851 ] } },
+{ "type": "Feature", "properties": { "Monument": "Ruines du Chellah", "Latitude": 34.006854722100002, "Longitude": -6.82035148767 }, "geometry": { "type": "Point", "coordinates": [ -6.820351487672288, 34.006854722084512 ] } },
+{ "type": "Feature", "properties": { "Monument": "Site des ruines de volubilis", "Latitude": 34.074987134200001, "Longitude": -5.55547970816 }, "geometry": { "type": "Point", "coordinates": [ -5.55547970815941, 34.074987134185761 ] } },
+{ "type": "Feature", "properties": { "Monument": "Site archéologique de Lixus", "Latitude": 35.199889557399999, "Longitude": -6.1090340759900004 }, "geometry": { "type": "Point", "coordinates": [ -6.109034075994709, 35.199889557397469 ] } },
+{ "type": "Feature", "properties": { "Monument": "Kasbah de Chefchaouen", "Latitude": 35.1686298252, "Longitude": -5.2619844741400001 }, "geometry": { "type": "Point", "coordinates": [ -5.261984474143554, 35.168629825169823 ] } },
+{ "type": "Feature", "properties": { "Monument": "Banasa", "Latitude": 34.629877172699999, "Longitude": -6.1061798024299998 }, "geometry": { "type": "Point", "coordinates": [ -6.106179802434007, 34.629877172719979 ] } },
+{ "type": "Feature", "properties": { "Monument": "Université Al Karaouiyine", "Latitude": 34.0651609632, "Longitude": -4.9732808723300002 }, "geometry": { "type": "Point", "coordinates": [ -4.973280872326421, 34.065160963183416 ] } },
+{ "type": "Feature", "properties": { "Monument": "Palais El Badîi", "Latitude": 31.618464787299999, "Longitude": -7.9858623030900002 }, "geometry": { "type": "Point", "coordinates": [ -7.985862303088128, 31.618464787280566 ] } },
+{ "type": "Feature", "properties": { "Monument": "La Kasbah de Taourirt", "Latitude": 30.920157980199999, "Longitude": -6.8991052896199996 }, "geometry": { "type": "Point", "coordinates": [ -6.899105289616159, 30.920157980198173 ] } },
+{ "type": "Feature", "properties": { "Monument": "Mausolée de Moulay Ismaïl", "Latitude": 33.890883189100002, "Longitude": -5.56319156069 }, "geometry": { "type": "Point", "coordinates": [ -5.563191560692032, 33.890883189123755 ] } },
+{ "type": "Feature", "properties": { "Monument": "Mosquée Koutoubia", "Latitude": 31.624023787799999, "Longitude": -7.99382185282 }, "geometry": { "type": "Point", "coordinates": [ -7.99382185282451, 31.624023787848277 ] } },
+{ "type": "Feature", "properties": { "Monument": "Palais de la Bahia", "Latitude": 31.621917255700001, "Longitude": -7.9816096337799998 }, "geometry": { "type": "Point", "coordinates": [ -7.981609633776209, 31.621917255654527 ] } },
+{ "type": "Feature", "properties": { "Monument": "Mausolée de Mohamed V", "Latitude": 34.022774056300001, "Longitude": -6.8214101011599997 }, "geometry": { "type": "Point", "coordinates": [ -6.821410101163749, 34.022774056301515 ] } },
+{ "type": "Feature", "properties": { "Monument": "La place Jemaa El-Fna", "Latitude": 31.625676285299999, "Longitude": -7.9872468761000004 }, "geometry": { "type": "Point", "coordinates": [ -7.987246876104034, 31.625676285280992 ] } },
+{ "type": "Feature", "properties": { "Monument": "Ksar d'Aït-Ben-Haddou", "Latitude": 31.0485214172, "Longitude": -7.1302557530200001 }, "geometry": { "type": "Point", "coordinates": [ -7.130255753023142, 31.048521417202117 ] } },
+{ "type": "Feature", "properties": { "Monument": "La Citerne portugaise", "Latitude": 33.256929944399999, "Longitude": -8.5027859760600002 }, "geometry": { "type": "Point", "coordinates": [ -8.502785976055611, 33.256929944445979 ] } },
+{ "type": "Feature", "properties": { "Monument": "Sqala du Port", "Latitude": 31.510509898700001, "Longitude": -9.7741536877499993 }, "geometry": { "type": "Point", "coordinates": [ -9.77415368774715, 31.510509898687914 ] } },
+{ "type": "Feature", "properties": { "Monument": "Kasbah de Télouet", "Latitude": 31.408236710400001, "Longitude": -7.2322359694099996 }, "geometry": { "type": "Point", "coordinates": [ -7.232235969410734, 31.408236710438544 ] } },
+{ "type": "Feature", "properties": { "Monument": "Bab Rcif", "Latitude": 34.0628004772, "Longitude": -4.9724747851800002 }, "geometry": { "type": "Point", "coordinates": [ -4.972474785180354, 34.062800477181746 ] } },
+{ "type": "Feature", "properties": { "Monument": "Oualili", "Latitude": 34.040714297800001, "Longitude": -5.5625315367799999 }, "geometry": { "type": "Point", "coordinates": [ -5.562531536778462, 34.04071429778805 ] } }
+]
+}
