@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Basic -->
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!-- Mobile Metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Site Metas -->
+	<title>Géoportail Touristique du Maroc</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- Site Icons -->
+	<link rel="shortcut icon" href="images/palmicon.png" <link rel="apple-touch-icon"
+		href="images/apple-touch-icon.png">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- Site CSS -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Responsive CSS -->
+	<link rel="stylesheet" href="css/responsive.css">
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="css/custom.css">
+
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+	<!-- Start header -->
+	<header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">
+					<img src="images/logogeotourisme.png" alt="" />
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-rs-food"
+					aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-rs-food">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
+						<li class="nav-item"><a class="nav-link" href="about.html">Informations</a></li>
+						<li class="nav-item active dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a"
+								data-toggle="dropdown">Evolution</a>
+							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="blog.html">Tourisme National</a>
+								<a class="dropdown-item" href="blog-details.html"> Tourisme International</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Zones
+								Touristiques</a>
+							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="reservation.html">Monuments historiques</a>
+								<a class="dropdown-item" href="stuff.html">Rivières</a>
+								<a class="dropdown-item" href="temp.html">Températures</a>
+							</div>
+						</li>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a"
+								data-toggle="dropdown">Requêtes</a>
+							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="attributaire.html">Attributaires</a>
+								<a class="dropdown-item" href="spatiale.html">Spatiales</a>
+							</div>
+						</li>
+						<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- End header -->
+
+	<!-- Start All Pages -->
+	<div class="all-page-title page-breadcrumb">
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-lg-12">
+					<h1>Toursime National </h1>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End All Pages -->
+
+	<!-- Start blog -->
+	<div class="blog-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="heading-title text-center">
+						<h2>Carte représentant les pourcentages d'arrivée des touristes nationaux au niveau de chaque
+							région :</h2>
+						<p> N.B : Cette représentation concerne seulement les arrivées des trouistes au niveau des
+							établissement classés.</p>
+					</div>
+				</div>
+			</div>
+
+			<html lang="en">
+
+			<head>
+				<link rel="stylesheet" href="theme.css" />
+
+				<link rel="stylesheet" href="maicons.css">
+
+				<link rel="stylesheet" href="bootstrap.css">
+
+				<link rel="stylesheet" href="animate.css">
+
+				<link rel="stylesheet" href="theme.css" />
+
+				<link rel="stylesheet" href="leaflet.css" />
+
+				<script src="js/leaflet.js"></script>
+
+				<script src="js/jquery-3.6.0.js"></script>
+
+				<script src="js/leaflet-timeline-slider.js"></script>
+			</head>
+
+			<body>
+
+		</div> <!-- .page-section -->
+		<style>
+			#map {
+				width: 600px;
+				height: 500px;
+			}
+
+			.info {
+				padding: 6px 8px;
+				color: rgb(61, 57, 57);
+				font: 14px/16px Arial, Helvetica, sans-serif;
+				background: rgba(173, 221, 142, 0.753);
+				background: rgba(173, 221, 142, 0.753);
+				box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+				border-radius: 5px;
+			}
+
+			.info h4 {
+				margin: 0 0 5px;
+				color: #0c0c0c;
+			}
+
+			.legend {
+				line-height: 18px;
+				color: #0f0f0f;
+			}
+
+			.legend i {
+				width: 18px;
+				height: 18px;
+				float: left;
+				margin-right: 8px;
+				opacity: 1;
+			}
+		</style>
+
+		<body>
+			<center>
+				<div id='map'></div>
+			</center>
+			<script type="text/javascript" src="js/regionsmaroct.js"></script>
+			<script type="text/javascript">
+
+
+				var mymap = L.map('map').setView([30.047222, -8.706566], 5);
+
+				L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png', {
+           attribution: 'Map tiles by Carto, under CC BY 3.0. Data by OpenStreetMap, under ODbL.',
+           maxZoom: 11,
+           minZoom: 4
+         }).addTo(mymap);
+
+				var geoJson = L.geoJson(regionsmaroct)
+
+				function getColor(attribut) {
+					return attribut > 17 ? '#993404' :
+						attribut > 7 ? '#d95f0e' :
+							attribut > 5 ? '#fe9929' :
+								attribut > 3 ? '#fec44f' :
+									attribut > 1 ? '#fee391' :
+										attribut >= 0 ? '#ffffd4' :
+											'#ffffd4';
+				}
+				function stylisermonFeature(feature) {
+					return {
+						weight: 1,
+						opacity: 1,
+						color: '#252525',
+						/*dashArray: '3',*/
+						fillOpacity: 1,
+						fillColor: getColor(feature.properties.pcgnatio)
+					};
+				}
+
+				function highlightFeature(e) {
+					var layer = e.target;
+
+					layer.setStyle({
+						weight: 2,
+						color: 'white',
+						dashArray: '',
+						fillOpacity: 0.7
+					});
+
+					if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+						layer.bringToFront();
+					}
+					info.update(layer.feature.properties);
+
+				}
+
+				function resetHighlight(e) {
+					geojson.resetStyle(e.target);
+					info.update();
+
+				}
+				function zoomToFeature(e) {
+					map.fitBounds(e.target.getBounds());
+				}
+
+				function onEachFeature(feature, layer) {
+					layer.on({
+						mouseover: highlightFeature,
+						mouseout: resetHighlight,
+						click: zoomToFeature,
+
+					});
+
+
+				}
+
+				var info = L.control();
+
+
+				info.onAdd = function (mymap) {
+					this._div = L.DomUtil.create('div', 'info');
+					this.update();
+					return this._div;
+				};
+
+
+				info.update = function (props) {
+					this._div.innerHTML = '<h4>Pourcentage des arrivés par région :</h4>' + (props ? 'Région : ' +
+						props.region + '</b> <br />Pourcentage : ' + props.pcgnatio + '</b> <b/>%' + '</sup>'
+						: 'Vous êtes hors le Maroc!');
+				};
+
+				info.addTo(mymap);
+
+				getDataAddMarkers = function ({ label, value, map, exclamation }) {
+					map.eachLayer(function (layer) {
+						if (layer instanceof L.Marker) {
+							map.removeLayer(layer);
+						}
+					});
+
+					filteredData = regionsmaroct.features.filter(function (i, n) {
+						return i.properties.annee === label;
+					});
+
+					/*var markerArray = [];*/
+
+					geojson = L.geoJson(filteredData, {
+						style: stylisermonFeature,
+						onEachFeature: onEachFeature,
+						/*content = `${exclamation} <br> ${feature.properties.content} `
+						var popup = L.popup().setContent(content);
+						layer.bindPopup(popup);
+						markerArray.push(layer);
+						layer.on({
+							mouseover: highlightFeature,
+							mouseout: resetHighlight,
+		
+						})
+					}*/
+					}).addTo(mymap);
+
+					/*var markerGroup = L.featureGroup(markerArray);
+					map.fitBounds(markerGroup.getBounds()).setZoom(8);*/
+				};
+
+				var slider = L.control.timelineSlider({
+					timelineItems: ["2018", "2020"],
+					changeMap: getDataAddMarkers,
+					extraChangeMapParams: 
+					{ exclamation: "regionsmaroct.feature.properties.region" }
+				})
+					.addTo(mymap);
+				var legend = L.control({ position: "topleft" });
+
+				legend.onAdd = function (mymap) {
+					var div = L.DomUtil.create("div", "info legend"),
+						grades = [0, 1, 3, 5, 7, 17],
+						labels = [];
+
+
+					for (var i = 0; i < grades.length; i++) {
+						div.innerHTML +=
+							'<i style="background:' +
+							getColor(grades[i] + 1) +
+							'"></i> ' +
+							grades[i] +
+							(grades[i + 1] ? "&ndash;" + grades[i + 1] + "<br>" : "+");
+					}
+
+					return div;
+				};
+
+
+				legend.addTo(mymap);
+
+
+			</script>
+		</body>
+
+</html>>
+<a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
+
+<!-- ALL JS FILES -->
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- ALL PLUGINS -->
+
+<script src="js/jquery.superslides.min.js"></script>
+<script src="js/images-loded.min.js"></script>
+<script src="js/isotope.min.js"></script>
+<script src="js/baguetteBox.min.js"></script>
+<script src="js/form-validator.min.js"></script>
+<script src="js/contact-form-script.js"></script>
+<script src="js/custom.js"></script>
+</body>
+
+</html>
