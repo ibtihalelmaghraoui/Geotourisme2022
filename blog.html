@@ -177,14 +177,12 @@
 			<script type="text/javascript" src="js/regionsmaroct.js"></script>
 			<script type="text/javascript">
 
-
 				var mymap = L.map('map').setView([30.047222, -8.706566], 5);
-
 				L.tileLayer('https://cartodb-basemaps-{s}.global.ssl.fastly.net/light_all/{z}/{x}/{y}.png', {
-           attribution: 'Map tiles by Carto, under CC BY 3.0. Data by OpenStreetMap, under ODbL.',
-           maxZoom: 11,
-           minZoom: 4
-         }).addTo(mymap);
+          		 	attribution: 'Map tiles by Carto, under CC BY 3.0. Data by OpenStreetMap, under ODbL.',
+          			 maxZoom: 11,
+           			minZoom: 4
+         			}).addTo(mymap);
 
 				var geoJson = L.geoJson(regionsmaroct)
 
